@@ -28,4 +28,5 @@ sudo service beacon status # ensure that beacon did not crash
 6. Upload the static `whois-front` HTML files and resources. 
 7. Modify the `whois-front` files   
 Ensure that line 13 of the `./whois-front/index.html` is correct. 
+9. Install and configure BW's Whois (http://whois.bw.org/).
 8. Complete, no other modifications are required.
