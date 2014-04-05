@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "beacon.js", "beacon.js\beacon.js.njsproj", "{091B6D8F-E903-45C1-AB66-C511B12F6803}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "whois-front", "http://localhost:20994", "{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_20994"
+		Debug.AspNetCompiler.PhysicalPath = "whois-front\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_20994\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_20994"
+		Release.AspNetCompiler.PhysicalPath = "whois-front\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_20994\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "whois-front\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Release|ARM.ActiveCfg = Release|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Release|x64.ActiveCfg = Release|Any CPU
+		{091B6D8F-E903-45C1-AB66-C511B12F6803}.Release|x86.ActiveCfg = Release|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Release|ARM.ActiveCfg = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Release|x64.ActiveCfg = Debug|Any CPU
+		{E8A28EDC-3F6B-4287-B9E9-4C9336F8CBEC}.Release|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

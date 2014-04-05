@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Whois</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.min.css" />
+</head>
+<body>
+    <header>
+        <a href="https://silvenga.com">Back to Silvenga.com</a>
+    </header>
+    <div class="container centered">
+        <h1 id="head" class="header text-centered">Whois : Simplified</h1>
+        <form class="search-form centered" id="search-form" method="POST" action="//api.example.com/whois">
+            <div class="inline-form">
+                <input class="search" type="text" name="address" placeholder="Whois Query" id="query" autofocus />
+                <input class="inline" type="submit" />
+            </div>
+        </form>
+        <pre class="results-pre"><span id="results" class="results"></span></pre>
+        <footer class="footer">
+            <p>Created and Maintained by <a href="https://silvenga.com">Mark Lopez</a></p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fittext.min.js"></script>
+    <script type="text/javascript" src="assets/js/master.min.js"></script>
+</body>
+</html>
